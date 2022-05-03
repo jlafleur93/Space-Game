@@ -10,7 +10,7 @@ namespace spacegame {
         private int delay = 0;
         private int score = 0;
         private Sprite sprite;
-        public const float PLAYER_SPEED = 1f;
+        public const float PLAYER_SPEED = 0.80f;
         Vector2f position;
         public List<Bullet> bullets = new List<Bullet>();
 
